@@ -1,6 +1,6 @@
 workflows:
   android-workflow:
-    name: Andrioid only build
+    name: Android only build
     environment:
       flutter: stable
       java: 17
@@ -10,4 +10,3 @@ workflows:
       - flutter build apk --release
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
-    
