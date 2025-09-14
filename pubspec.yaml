@@ -1,0 +1,23 @@
+name: project_hours_app
+description: Flutter app for logging project hours and exporting PDF reports
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  intl: ^0.18.1
+  pdf: ^3.10.7
+  printing: ^5.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
