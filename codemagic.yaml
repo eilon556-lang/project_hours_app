@@ -1,4 +1,4 @@
-git workflows:
+workflows:
   android-workflow:
     name: Andrioid only build
     environment:
